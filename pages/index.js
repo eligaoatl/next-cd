@@ -1,8 +1,15 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <div className="container">
+      
+      <div>      
+        <p>My Pages</p>
+        <Link href='about'>About this application</Link>
+      </div>
+      
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
